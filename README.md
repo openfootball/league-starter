@@ -103,7 +103,7 @@ Matchday 4
 
 Example - [`2014-15/1-premierleague.yml`](2014-15/1-premierleague.yml):
 
-```
+```yaml
 league:   mu
 season:   2014/15
 start_at: 2014-11-05
@@ -141,7 +141,7 @@ mu-mauritius!/2014-15/1-premierleague
 
 Example - [`Datafile`](Datafile):
 
-```
+```ruby
 ## a) Add country e.g. Mauritius
 
 inline do
