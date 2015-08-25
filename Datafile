@@ -1,0 +1,13 @@
+################################################
+# Datafile for Mauritius Premier League
+#
+#  use (inside the mu-mauritius/ folder)
+#    $ sportdb build
+
+
+inline do
+  WorldDb::Model::Country.parse( 'mu', 'Mauritius', 'MUS', '2_040 km²', '1_261_208' )
+end 
+
+football 'mu-mauritius', path: '.'
+

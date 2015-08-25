@@ -1,0 +1,27 @@
+####################################
+# Mauritius Premier League 2014/15
+
+league:   mu
+season:   2014/15
+start_at: 2014-11-5
+
+fixtures:
+- 1-premierleague-i
+- 1-premierleague-ii
+
+10 teams:
+- Cercle de Joachim
+- ASPL 2000
+- Pamplemousses
+- Curepipe Starlight
+- Petite Rivière Noire
+- Rivière du Rempart
+- AS Quatre Bornes
+- Chamarel SC
+- La Cure Sylvester
+- Entente Boulet Rouge
+
+
+###
+# for checksum add poin (pts) corrections
+

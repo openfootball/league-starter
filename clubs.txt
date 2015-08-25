@@ -1,0 +1,15 @@
+####################################
+# Mauritius Premier League Teams
+#  (see www.mpfl.mu)
+
+joachim,       Cercle de Joachim SC|Cercle de Joachim|Joachim, CDJ
+chamarel,      Chamarel|Chamarel FC|Chamarel SC, CHA
+curepipesc,    Curepipe Starlight SC|CSSC|Curepipe SC|Starlight, CUR
+entente,       Entente Boulet Rouge SC|Entente Boulet Rouge|Entente Boulet Rouge-Riche Mare Rovers|EBRRMR, EBR
+lacure,        La Cure Sylvester|La Cure|La Cure Sylvester SC, LCS
+pamplemousses, Pamplemousses|Pamplemousses SC, PPM
+petiteriv,     Petite Rivière Noire|Petite Rivière Noire SC|Petite Rivière Noire FC|PRNFC|Petite Rivière, PRN
+aspl,          AS Port-Louis 2000|ASPL 2000|Port-Louis 2000, APL
+qbornes,       AS Quatre Bornes|ASQB|Quatre Bornes, AQB
+rempart,       AS Rivière du Rempart|ASRR|Rivière du Rempart, ARR
+

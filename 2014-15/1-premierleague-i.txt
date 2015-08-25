@@ -1,0 +1,62 @@
+####################################
+# Mauritius Premier League 2014/15
+
+Matchday 1
+
+[Wed Nov/5]
+  Curepipe Starlight SC    1-3  Petite Riviere Noire SC
+  AS Quatre Bornes         1-0  La Cure Sylvester SC
+  Pamplemousses SC         0-1  AS Riviere Du Rempart
+  AS Port-Louis 2000       5-1  Entente Boulet Rouge SC
+  Chamarel FC              2-3  Cercle de Joachim SC
+
+
+Matchday 2
+
+[Sun Nov/9]
+  Curepipe Starlight SC    2-1  AS Quatre Bornes
+  Entente Boulet Rouge SC  1-2  Chamarel FC
+  AS Riviere Du Rempart    1-1  AS Port-Louis 2000
+  La Cure Sylvester SC     1-2  Pamplemousses SC
+  Petite Riviere Noire SC  2-0  Cercle de Joachim SC
+
+
+Matchday 3
+
+[Wed Nov/12]
+  Chamarel FC              1-1  AS Riviere Du Rempart
+  AS Port-Louis 2000       1-0  La Cure Sylvester SC
+  Cercle de Joachim SC     2-2  Entente Boulet Rouge SC
+  Pamplemousses SC         0-4  Curepipe Starlight SC
+  AS Quatre Bornes         1-2  Petite Riviere Noire SC
+
+
+Matchday 4
+
+[Sun Nov/16]
+  Petite Riviere Noire SC  4-1  Entente Boulet Rouge SC
+  AS Riviere Du Rempart    1-1  Cercle de Joachim SC
+  La Cure Sylvester SC     0-0  Chamarel FC
+  Curepipe Starlight SC    0-0  AS Port-Louis 2000
+  AS Quatre Bornes         1-0  Pamplemousses SC
+
+
+Matchday 5
+
+[Sun Nov/23]
+  AS Port-Louis 2000       1-0  AS Quatre Bornes
+  Cercle de Joachim SC     0-1  La Cure Sylvester SC
+  Chamarel FC              0-3  Curepipe Starlight SC
+  Entente Boulet Rouge SC  0-2  AS Riviere Du Rempart
+  Pamplemousses SC         2-3  Petite Riviere Noire SC
+
+
+Matchday 6
+
+[Sun Nov/30]
+  Curepipe Starlight SC    0-0  Cercle de Joachim SC
+  La Cure Sylvester SC     5-2  Entente Boulet Rouge SC
+  Pamplemousses SC         0-1  AS Port-Louis 2000
+  Petite Riviere Noire SC  1-0  AS Riviere Du Rempart
+  AS Quatre Bornes         2-1  Chamarel FC
+
