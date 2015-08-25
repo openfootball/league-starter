@@ -1,16 +1,16 @@
 # sport.db League Quick Starter Sample - Mauritius Premier League
 
 
-Creating your own plain text datasets for your own league(s) from scratch
+Create your own plain text datasets for your own league(s) from scratch
 and read it all
 into your SQL database of choice (e.g. SQLite, PostgreSQL, etc.)
-with a single command:
+with a single command e.g.:
 
 ```
 $ sportdb build
 ```
 
-Follow along with this six steps:
+Let's get started. Follow along these six steps:
 
 - Step 1: Add all leagues
 - Step 2: Add all clubs
@@ -31,24 +31,24 @@ mu, Mauritius Premier League
 
 ## Step 2: Add all clubs
 
-The Mauritius Premier League sports ten clubs.
+The Mauritius Premier League includes ten clubs.
 
 Example - `clubs.txt`:
 
 ```
-joachim,       Cercle de Joachim|Cercle de Joachim SC|Joachim, CDJ
-chamarel,      Chamarel|Chamarel SC, CHA
-curepipesc,    Curepipe Starlight|Curepipe SC|Starlight, CUR
+joachim,       Cercle de Joachim|Cercle de Joachim SC|Joachim,              CDJ
+chamarel,      Chamarel|Chamarel SC,                                        CHA
+curepipesc,    Curepipe Starlight|Curepipe SC|Starlight,                    CUR
 entente,       Entente Boulet Rouge|Entente Boulet Rouge-Riche Mare Rovers, EBR
-lacure,        La Cure Sylvester|La Cure, LCS
-pamplemousses, Pamplemousses|Pamplemousses SC, PPM
-petiteriv,     Petite Rivière Noire|Petite Rivière, PRN
-aspl,          AS Port-Louis 2000|ASPL 2000, APL
-qbornes,       AS Quatre Bornes|Quatre Bornes, AQB
-rempart,       AS Rivière du Rempart|Rivière du Rempart, ARR
+lacure,        La Cure Sylvester|La Cure,                                   LCS
+pamplemousses, Pamplemousses|Pamplemousses SC,                              PPM
+petiteriv,     Petite Rivière Noire|Petite Rivière,                         PRN
+aspl,          AS Port-Louis 2000|ASPL 2000,                                APL
+qbornes,       AS Quatre Bornes|Quatre Bornes,                              AQB
+rempart,       AS Rivière du Rempart|Rivière du Rempart,                    ARR
 ```
 
-Note: Using the pipe (`|`) you can list alternative names.
+Note: Use the pipe (`|`) to list alternative names.
 
 
 ## Step 3: Add all match fixtures and results
@@ -106,7 +106,7 @@ Example - `2014-15/1-premierleague.yml`:
 ```
 league:   mu
 season:   2014/15
-start_at: 2014-11-5
+start_at: 2014-11-05
 
 fixtures:
 - 1-premierleague-i
@@ -114,7 +114,7 @@ fixtures:
 
 10 teams:
 - Cercle de Joachim
-- ASPL 2000
+- AS Port-Louis 2000
 - Pamplemousses
 - Curepipe Starlight
 - Petite Rivière Noire
