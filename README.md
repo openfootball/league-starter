@@ -22,7 +22,7 @@ Let's get started. Follow along these six steps:
 
 ## Step 1: Add all leagues
 
-Example - `leagues.txt`:
+Example - [`leagues.txt`](leagues.txt):
 
 ```
 mu, Mauritius Premier League
@@ -33,7 +33,7 @@ mu, Mauritius Premier League
 
 The Mauritius Premier League includes ten clubs.
 
-Example - `clubs.txt`:
+Example - [`clubs.txt`](clubs.txt):
 
 ```
 joachim,       Cercle de Joachim|Cercle de Joachim SC|Joachim,              CDJ
@@ -53,7 +53,7 @@ Note: Use the pipe (`|`) to list alternative names.
 
 ## Step 3: Add all match fixtures and results
 
-Example - `2014-15/1-premierleague-i.txt`:
+Example - [`2014-15/1-premierleague-i.txt`](2014-15/1-premierleague-i.txt):
 
 ```
 Matchday 1
@@ -101,7 +101,7 @@ Matchday 4
 
 ## Step 4: Add the league season "front matter" settings
 
-Example - `2014-15/1-premierleague.yml`:
+Example - [`2014-15/1-premierleague.yml`](2014-15/1-premierleague.yml):
 
 ```
 league:   mu
@@ -128,7 +128,7 @@ fixtures:
 
 ## Step 5: Add a setups file list (also known as manifest)
 
-Example - `setups/all.txt`:
+Example - [`setups/all.txt`](setups/all.txt):
 
 ```
 mu-mauritius!/leagues
@@ -139,7 +139,7 @@ mu-mauritius!/2014-15/1-premierleague
 
 ## Step 6: Add a datafile build script - That's it. Done.
 
-Example - `Datafile`:
+Example - [`Datafile`](Datafile):
 
 ```
 ## a) Add country e.g. Mauritius
