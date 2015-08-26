@@ -8,7 +8,7 @@
 Final League Standings 2014/15
 
 ```
-Rnk    Team                  MP   W   D   L  GF   GA  +/-  Pts
+Rnk    Team                 Pld   W   D   L  GF   GA  +/-  Pts
   1    Cercle de Joachim     36  22   9   5  62   24   38   75
   2    AS Port-Louis 2000    36  21  10   5  67   30   37   73
   3    Pamplemousses         36  18   5  13  56   42   14   59
@@ -21,6 +21,34 @@ Rnk    Team                  MP   W   D   L  GF   GA  +/-  Pts
  10    Entente Boulet Rouge  36   5   9  22  52  103  -51   24
 ```
 
-To do: double check standings table
+(source: fifa)
 
+
+```
+       Team                          Pld    W    GD   Pts
+  1    Cercle de Joachim              36   22    38    75
+  2    AS Port-Louis 2000             36   21    37    73
+  3    Pamplemousses                  36   18    14    59
+  4    Curepipe Starlight*            36   17     7    57
+  5    Petite Rivière Noire*          36   18     7    56
+  6    Rivière du Rempart**           36   11    -2    43
+  7    AS Quatre Bornes*              36   10   -12    38  
+  8    Chamarel SC                    36    9   -25    35 
+  9    La Cure Sylvester              36    8   -13    34
+ 10    Entente B.R/Riche-Mare Rovers  36    5   -51    24
+```
+
+```
+Corrections:
+
+    Curepipe Starlight:   -1 points
+    Petite Rivière Noire: -1 points
+    Rivière du Rempart:   -2 points
+    AS Quatre Bornes:     -1 points
+```
+
+(source: mpfl)
+
+To do: double check standings table with own calculation after import
+Note: check for corrections (minus points for some clubs)
 

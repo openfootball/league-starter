@@ -57,7 +57,6 @@ Example - [`2014-15/1-premierleague-i.txt`](2014-15/1-premierleague-i.txt):
 
 ```
 Matchday 1
-
 [Wed Nov/5]
   Curepipe Starlight    1-3  Petite Rivière Noire
   AS Quatre Bornes      1-0  La Cure Sylvester
@@ -65,9 +64,7 @@ Matchday 1
   AS Port-Louis 2000    5-1  Entente Boulet Rouge
   Chamarel FC           2-3  Cercle de Joachim
 
-
 Matchday 2
-
 [Sun Nov/9]
   Curepipe Starlight    2-1  AS Quatre Bornes
   Entente Boulet Rouge  1-2  Chamarel FC
@@ -75,9 +72,7 @@ Matchday 2
   La Cure Sylvester     1-2  Pamplemousses
   Petite Rivière Noire  2-0  Cercle de Joachim
 
-
 Matchday 3
-
 [Wed Nov/12]
   Chamarel FC           1-1  Rivière du Rempart
   AS Port-Louis 2000    1-0  La Cure Sylvester
@@ -87,7 +82,6 @@ Matchday 3
 
 
 Matchday 4
-
 [Sun Nov/16]
   Petite Rivière Noire  4-1  Entente Boulet Rouge
   Rivière du Rempart    1-1  Cercle de Joachim

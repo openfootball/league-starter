@@ -11,7 +11,7 @@ fixtures:
 
 10 teams:
 - Cercle de Joachim
-- ASPL 2000
+- AS Port-Louis 2000
 - Pamplemousses
 - Curepipe Starlight
 - Petite Rivière Noire
@@ -23,5 +23,11 @@ fixtures:
 
 
 ###
-# for checksum add poin (pts) corrections
+# note: for standings table (checksum) add point (pts) corrections
+
+corrections:
+- Curepipe Starlight:   -1 points
+- Petite Rivière Noire: -1 points
+- Rivière du Rempart:   -2 points
+- AS Quatre Bornes:     -1 points
 

@@ -1,0 +1,154 @@
+############################################
+# Mauritius Premier League 2014/15 (Cont.)
+
+
+Matchday 19
+[Sun Feb/22]
+  AS Quatre Bornes      1-2  La Cure Sylvester
+  Pamplemousses         3-0  Rivière du Rempart
+  Curepipe Starlight    1-0  Petite Rivière Noire
+  Chamarel SC           2-3  Cercle de Joachim
+  AS Port-Louis 2000    5-1  Entente Boulet Rouge
+
+Matchday 20
+[Wed Feb/25]
+  La Cure Sylvester     1-2  Pamplemousses
+  Entente Boulet Rouge  1-1  Chamarel SC
+  Curepipe Starlight    3-1  AS Quatre Bornes
+  Rivière du Rempart    1-2  AS Port-Louis 2000
+[Thu Mar/19]
+  Petite Rivière Noire  0-2  Cercle de Joachim
+
+Matchday 21
+[Sun Mar/1]
+  Pamplemousses         3-1  Curepipe Starlight
+  Chamarel SC           3-0  Rivière du Rempart
+  Cercle de Joachim     1-1  Entente Boulet Rouge
+  AS Port-Louis 2000    2-1  La Cure Sylvester
+[Wed Apr/1]
+  AS Quatre Bornes      2-1  Petite Rivière Noire
+
+Matchday 22
+[Wed Mar/4]
+  AS Quatre Bornes      0-1  Pamplemousses
+  Petite Rivière Noire  2-3  Entente Boulet Rouge
+  Rivière du Rempart    1-1  Cercle de Joachim
+[Thu Mar/19]
+  La Cure Sylvester     3-0  Chamarel SC
+  Curepipe Starlight    2-1  AS Port-Louis 2000
+
+Matchday 23
+[Sat Apr/4]
+  Pamplemousses         3-4  Petite Rivière Noire
+  Entente Boulet Rouge  2-3  Rivière du Rempart
+  Chamarel SC           0-1  Curepipe Starlight
+  Cercle de Joachim     1-0  La Cure Sylvester
+  AS Port-Louis 2000    0-1  AS Quatre Bornes
+
+Matchday 24
+[Wed Apr/8]
+  AS Quatre Bornes      1-0  Chamarel SC
+  Petite Rivière Noire  3-0  Rivière du Rempart
+  Pamplemousses         1-1  AS Port-Louis 2000
+  La Cure Sylvester     3-1  Entente Boulet Rouge
+  Curepipe Starlight    0-3  Cercle de Joachim
+
+Matchday 25
+[Sun Apr/12]
+  Entente Boulet Rouge  2-4  Curepipe Starlight
+  Chamarel SC           0-3  Pamplemousses
+  Cercle de Joachim     1-0  AS Quatre Bornes
+  Rivière du Rempart    2-2  La Cure Sylvester
+  AS Port-Louis 2000    0-2  Petite Rivière Noire
+
+Matchday 26
+[Sun Apr/19]
+  AS Quatre Bornes      0-2  Entente Boulet Rouge
+  Petite Rivière Noire  0-0  La Cure Sylvester
+  Pamplemousses         0-2  Cercle de Joachim
+  Curepipe Starlight    2-2  Rivière du Rempart
+  AS Port-Louis 2000    6-1  Chamarel SC
+
+Matchday 27
+[Sun Apr/26]
+  La Cure Sylvester     1-0  Curepipe Starlight
+  Entente Boulet Rouge  0-6  Pamplemousses
+  Chamarel SC           2-1  Petite Rivière Noire
+  Cercle de Joachim     0-0  AS Port-Louis 2000
+  Rivière du Rempart    1-2  AS Quatre Bornes
+
+Matchday 28
+[Wed Apr/29]
+  Petite Rivière Noire  2-1  Curepipe Starlight
+  La Cure Sylvester     1-1  AS Quatre Bornes
+  Entente Boulet Rouge  0-5  AS Port-Louis 2000
+  Cercle de Joachim     2-0  Chamarel SC
+  Rivière du Rempart    1-0  Pamplemousses
+
+Matchday 29
+[Sun May/3]
+  AS Quatre Bornes      2-0  Curepipe Starlight
+  Pamplemousses         1-0  La Cure Sylvester
+  Chamarel SC           3-2  Entente Boulet Rouge
+  Cercle de Joachim     0-0  Petite Rivière Noire
+  AS Port-Louis 2000    2-2  Rivière du Rempart
+
+Matchday 30
+[Sun May/10]
+  Petite Rivière Noire  0-0  AS Quatre Bornes
+  La Cure Sylvester     0-1  AS Port-Louis 2000
+  Entente Boulet Rouge  0-6  Cercle de Joachim
+  Curepipe Starlight    0-1  Pamplemousses
+  Rivière du Rempart    1-1  Chamarel SC
+
+Matchdaay 31
+[Sun May/31]
+  Pamplemousses         1-0  AS Quatre Bornes
+  Entente Boulet Rouge  3-0  Petite Rivière Noire
+  Chamarel SC           1-0  La Cure Sylvester
+  AS Port-Louis 2000    2-2  Curepipe Starlight
+[Tue Jun/2]
+  Cercle de Joachim     2-1  Rivière du Rempart
+
+Matchday 32
+[Wed Jun/3]
+  AS Quatre Bornes      0-2  AS Port-Louis 2000
+[Thu Jun/4]
+  Petite Rivière Noire  1-3  Pamplemousses
+  La Cure Sylvester     0-0  Cercle de Joachim
+  Curepipe Starlight    2-0  Chamarel SC
+  Rivière du Rempart    4-3  Entente Boulet Rouge
+
+Matchday 33
+[Sun Jun/7]
+  Entente Boulet Rouge  4-0  La Cure Sylvester
+  Chamarel SC           3-3  AS Quatre Bornes
+  Cercle de Joachim     1-0  Curepipe Starlight
+  Rivière du Rempart    1-2  Petite Rivière Noire
+  AS Port-Louis 2000    3-2  Pamplemousses
+
+Matchday 34
+[Tue Jun/30]
+  AS Quatre Bornes      0-1  Cercle de Joachim
+  Petite Rivière Noire  0-1  AS Port-Louis 2000
+  Pamplemousses         2-1  Chamarel SC
+  La Cure Sylvester     1-1  Rivière du Rempart
+  Curepipe Starlight    2-1  Entente Boulet Rouge
+
+Matchday 35
+[Wed Jul/8]
+  La Cure Sylvester     3-2  Petite Rivière Noire
+  Entente Boulet Rouge  0-1  AS Quatre Bornes
+  Chamarel SC           1-1  AS Port-Louis 2000
+  Cercle de Joachim     1-0  Pamplemousses
+  Rivière du Rempart    5-1  Curepipe Starlight
+
+Matchday 36
+[Sat Jul/11]
+  AS Quatre Bornes      1-2  Rivière du Rempart
+  Petite Rivière Noire  0-2  Chamarel SC
+  Curepipe Starlight    4-3  La Cure Sylvester
+[Sun Jul/12]
+  Pamplemousses         3-4  Entente Boulet Rouge
+  AS Port-Louis 2000    2-1  Cercle de Joachim
+
