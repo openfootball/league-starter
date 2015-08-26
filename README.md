@@ -40,7 +40,7 @@ Using a file structure like:
 Example - [`leagues.txt`](leagues.txt):
 
 ```
-mu,      Mauritius Premier League
+mu, Mauritius Premier League
 ```
 
 
