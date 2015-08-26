@@ -19,6 +19,21 @@ Let's get started. Follow along these six steps:
 - Step 5: Add a setups file list (also known as manifest)
 - Step 6: Add a datafile build script - That's it. Done.
 
+Using a file structure like:
+
+```
+├── 2014-15              # 2014-15 season folder
+|   ├── league-i.txt     #   match fixtures / results - matchdays  1-18
+|   ├── league-ii.txt    #                            - matchdays 19-36
+|   └── league.yml       #   "front matter" settings
+├── setups
+|   └── all.txt          #   file list (manifest)
+├── leagues.txt          # all leagues
+├── clubs.txt            # all clubs
+└── Datafile             # build script
+```
+
+
 
 ## Step 1: Add all leagues
 
