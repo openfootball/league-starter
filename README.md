@@ -41,7 +41,6 @@ Example - [`leagues.txt`](leagues.txt):
 
 ```
 mu,      Mauritius Premier League
-mu.cup,  Mauritius Football Association Cup
 ```
 
 
