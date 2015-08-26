@@ -6,8 +6,8 @@ season:   2014/15
 start_at: 2014-11-5
 
 fixtures:
-- 1-premierleague-i
-- 1-premierleague-ii
+- league-i
+- league-ii
 
 10 teams:
 - Cercle de Joachim

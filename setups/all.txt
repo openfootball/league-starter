@@ -1,4 +1,7 @@
 
 mu-mauritius!/leagues
 mu-mauritius!/clubs
-mu-mauritius!/2014-15/1-premierleague
+
+mu-mauritius!/2014-15/league
+mu-mauritius!/2014-15/cup
+

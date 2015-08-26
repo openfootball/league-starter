@@ -25,7 +25,8 @@ Let's get started. Follow along these six steps:
 Example - [`leagues.txt`](leagues.txt):
 
 ```
-mu, Mauritius Premier League
+mu,      Mauritius Premier League
+mu.cup,  Mauritius Football Association Cup
 ```
 
 
@@ -53,7 +54,7 @@ Note: Use the pipe (`|`) to list alternative names.
 
 ## Step 3: Add all match fixtures and results
 
-Example - [`2014-15/1-premierleague-i.txt`](2014-15/1-premierleague-i.txt):
+Example - [`2014-15/league-i.txt`](2014-15/league-i.txt):
 
 ```
 Matchday 1
@@ -95,7 +96,7 @@ Matchday 4
 
 ## Step 4: Add the league season "front matter" settings
 
-Example - [`2014-15/1-premierleague.yml`](2014-15/1-premierleague.yml):
+Example - [`2014-15/league.yml`](2014-15/league.yml):
 
 ```yaml
 league:   mu
@@ -103,8 +104,8 @@ season:   2014/15
 start_at: 2014-11-05
 
 fixtures:
-- 1-premierleague-i
-- 1-premierleague-ii
+- league-i
+- league-ii
 
 10 teams:
 - Cercle de Joachim
@@ -127,7 +128,7 @@ Example - [`setups/all.txt`](setups/all.txt):
 ```
 mu-mauritius!/leagues
 mu-mauritius!/clubs
-mu-mauritius!/2014-15/1-premierleague
+mu-mauritius!/2014-15/league
 ```
 
 
