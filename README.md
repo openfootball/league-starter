@@ -179,12 +179,46 @@ That's it. Try:
 ```
 $ sqlite3 sport.db
 
-> select * from countries;
+SQLite version 3.7.16
+Enter ".help" for instructions
+Enter SQL statements terminated with a ";"
 
-> select * from teams;
+sqlite> .tables
 
+alltime_standing_entries  events_grounds            names
+alltime_standings         events_teams              parts
+assocs                    games                     persons
+assocs_assocs             goals                     places
+badges                    grounds                   props
+cities                    group_standing_entries    rosters
+continents                group_standings           rounds
+counties                  groups                    seasons
+countries                 groups_teams              states
+country_codes             langs                     taggings
+districts                 leagues                   tags
+event_standing_entries    logs                      teams
+event_standings           metros                    usages
+events                    munis                     zones
+
+sqlite> select * from countries;
+
+1|Mauritius|mauritius|mu|1|MUS|||1261200|2040|||f|t|f|f|
+
+sqlite> select * from teams;
+
+1|joachim|Cercle de Joachim||CDJ|Cercle de Joachim SC|Joachim|1||t|||||f|
+2|chamarel|Chamarel SC||CHA|Chamarel|Chamarel Sport Club|1||t|||||f|
+3|curepipesc|Curepipe Starlight||CUR|Curepipe Starlight SC|1||t|||||f|
+4|entente|Entente Boulet Rouge||EBR|Entente Boulet Rouge SC|Entente Boulet Rouge-Riche Mare Rovers|1||t|||||f|
+5|lacure|La Cure Sylvester||LCS|La Cure Sylvester SC|La Cure|1||t|||||f|
+6|pamplemousses|Pamplemousses||PPM|Pamplemousses SC|1||t|||||f|
+7|petiteriv|Petite Rivière Noire||PRN|Petite Rivière Noire SC|Petite Rivière|1||t|||||f|
+8|aspl|AS Port-Louis 2000||APL|ASPL 2000|Port-Louis 2000|Association Sportive Port-Louis 2000|1||t|||||f|
+9|qbornes|AS Quatre Bornes||AQB|ASQB|Quatre Bornes|1||t|||||f|
+10|rempart|Rivière du Rempart||ARR|AS Rivière du Rempart|1||t|||||f|
+11|pointauxsables|Pointe-aux-Sables Mates||||1||t|||||f|
+12|savanne|Savanne SC|||Savanne Sporting Club|1||t|||||f|
 ```
-
 
 And so on.
 
