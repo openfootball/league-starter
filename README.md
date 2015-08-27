@@ -206,18 +206,18 @@ sqlite> select * from countries;
 
 sqlite> select * from teams;
 
-1|joachim|Cercle de Joachim||CDJ|Cercle de Joachim SC|Joachim|1||t|||||f|
-2|chamarel|Chamarel SC||CHA|Chamarel|Chamarel Sport Club|1||t|||||f|
-3|curepipesc|Curepipe Starlight||CUR|Curepipe Starlight SC|1||t|||||f|
-4|entente|Entente Boulet Rouge||EBR|Entente Boulet Rouge SC|Entente Boulet Rouge-Riche Mare Rovers|1||t|||||f|
-5|lacure|La Cure Sylvester||LCS|La Cure Sylvester SC|La Cure|1||t|||||f|
-6|pamplemousses|Pamplemousses||PPM|Pamplemousses SC|1||t|||||f|
-7|petiteriv|Petite Rivière Noire||PRN|Petite Rivière Noire SC|Petite Rivière|1||t|||||f|
-8|aspl|AS Port-Louis 2000||APL|ASPL 2000|Port-Louis 2000|Association Sportive Port-Louis 2000|1||t|||||f|
-9|qbornes|AS Quatre Bornes||AQB|ASQB|Quatre Bornes|1||t|||||f|
-10|rempart|Rivière du Rempart||ARR|AS Rivière du Rempart|1||t|||||f|
-11|pointauxsables|Pointe-aux-Sables Mates||||1||t|||||f|
-12|savanne|Savanne SC|||Savanne Sporting Club|1||t|||||f|
+1|joachim|Cercle de Joachim||CDJ|Cercle de Joachim SC|Joachim||t|||||f|
+2|chamarel|Chamarel SC||CHA|Chamarel|Chamarel Sport Club||t|||||f|
+3|curepipesc|Curepipe Starlight||CUR|Curepipe Starlight SC||t|||||f|
+4|entente|Entente Boulet Rouge||EBR|Entente Boulet Rouge SC|Entente Boulet Rouge-Riche Mare Rovers||t|||||f|
+5|lacure|La Cure Sylvester||LCS|La Cure Sylvester SC|La Cure||t|||||f|
+6|pamplemousses|Pamplemousses||PPM|Pamplemousses SC||t|||||f|
+7|petiteriv|Petite Rivière Noire||PRN|Petite Rivière Noire SC|Petite Rivière||t|||||f|
+8|aspl|AS Port-Louis 2000||APL|ASPL 2000|Port-Louis 2000|Association Sportive Port-Louis 2000||t|||||f|
+9|qbornes|AS Quatre Bornes||AQB|ASQB|Quatre Bornes||t|||||f|
+10|rempart|Rivière du Rempart||ARR|AS Rivière du Rempart||t|||||f|
+11|pointauxsables|Pointe-aux-Sables Mates|||||t|||||f|
+12|savanne|Savanne SC|||Savanne Sporting Club||t|||||f|
 ```
 
 And so on.
