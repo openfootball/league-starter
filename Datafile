@@ -6,8 +6,8 @@
 
 
 inline do
-  WorldDb::Model::Country.parse( 'mu', 'Mauritius', 'MUS', '2_040 km²', '1_261_200' )
+  Country.parse 'mu', 'Mauritius', 'MUS', '2_040 km²', '1_261_200'
 end 
 
-football 'mu-mauritius', path: '.'
+football 'mu-mauritius'
 

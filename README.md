@@ -154,12 +154,12 @@ Example - [`Datafile`](Datafile):
 ## a) Add country e.g. Mauritius
 
 inline do
-  WorldDb::Model::Country.parse( 'mu', 'Mauritius', 'MUS', '2_040 km²', '1_261_208' )
+  Country.parse 'mu', 'Mauritius', 'MUS', '2_040 km²', '1_261_200'
 end 
 
 ## b) Read in all football datasets in ./mu-mauritius (defaults to setups/all.txt)
 
-football 'mu-mauritius', path: '.'
+football 'mu-mauritius'
 ```
 
 
