@@ -1,4 +1,4 @@
-# sport.db League Quick Starter Sample - Mauritius Premier League
+# football.db League Quick Starter Sample - Mauritius Premier League
 
 
 Create your own plain text datasets for your own league(s) from scratch
