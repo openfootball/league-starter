@@ -10,24 +10,22 @@ with a single command e.g.:
 $ sportdb build
 ```
 
-Let's get started. Follow along these six steps:
+Let's get started. Follow along these five steps:
 
 - Step 1: Add all leagues
 - Step 2: Add all clubs
 - Step 3: Add all match fixtures and results
 - Step 4: Add the league season "front matter" settings
-- Step 5: Add a setups file list (also known as manifest)
-- Step 6: Add a datafile build script - That's it. Done.
+- Step 5: Add a datafile build script - That's it. Done.
 
 Using a file structure like:
 
 ```
+mauritius
 ├── 2014-15              # 2014-15 season folder
 |   ├── league-i.txt     #   match fixtures / results - matchdays  1-18
 |   ├── league-ii.txt    #                            - matchdays 19-36
-|   └── league.yml       #   "front matter" settings
-├── setups
-|   └── all.txt          #   file list (manifest)
+|   └── .conf.txt        #  league "configuration" settings
 ├── leagues.txt          # all leagues
 ├── clubs.txt            # all clubs
 └── Datafile             # build script
@@ -40,7 +38,8 @@ Using a file structure like:
 Example - [`leagues.txt`](leagues.txt):
 
 ```
-mu, Mauritius Premier League
+= Mauritius =
+1  Mauritius Premier League
 ```
 
 
@@ -51,16 +50,17 @@ The Mauritius Premier League includes ten clubs.
 Example - [`clubs.txt`](clubs.txt):
 
 ```
-joachim,       Cercle de Joachim|Cercle de Joachim SC|Joachim,              CDJ
-chamarel,      Chamarel|Chamarel SC,                                        CHA
-curepipesc,    Curepipe Starlight|Curepipe SC|Starlight,                    CUR
-entente,       Entente Boulet Rouge|Entente Boulet Rouge-Riche Mare Rovers, EBR
-lacure,        La Cure Sylvester|La Cure,                                   LCS
-pamplemousses, Pamplemousses|Pamplemousses SC,                              PPM
-petiteriv,     Petite Rivière Noire|Petite Rivière,                         PRN
-aspl,          AS Port-Louis 2000|ASPL 2000,                                APL
-qbornes,       AS Quatre Bornes|Quatre Bornes,                              AQB
-rempart,       AS Rivière du Rempart|Rivière du Rempart,                    ARR
+= Mauritius =
+Cercle de Joachim | Cercle de Joachim SC | Joachim
+Chamarel | Chamarel SC
+Curepipe Starlight | Curepipe SC | Starlight
+Entente Boulet Rouge | Entente Boulet Rouge-Riche Mare Rovers
+La Cure Sylvester | La Cure
+Pamplemousses | Pamplemousses SC
+Petite Rivière Noire | Petite Rivière
+AS Port-Louis 2000 | ASPL 2000
+AS Quatre Bornes | Quatre Bornes
+AS Rivière du Rempart | Rivière du Rempart
 ```
 
 Note: Use the pipe (`|`) to list alternative names.
@@ -71,6 +71,8 @@ Note: Use the pipe (`|`) to list alternative names.
 Example - [`2014-15/league-i.txt`](2014-15/league-i.txt):
 
 ```
+= Mauritius Premier League 2014/15 =
+
 Matchday 1
 [Wed Nov/5]
   Curepipe Starlight    1-3  Petite Rivière Noire
@@ -108,58 +110,34 @@ Matchday 4
 ```
 
 
-## Step 4: Add the league season "front matter" settings
+## Step 4: Add the league season "configuration" settings
 
-Example - [`2014-15/league.yml`](2014-15/league.yml):
+Example - [`2014-15/.conf.txt`](2014-15/.conf.txt):
 
-```yaml
-league:   mu
-season:   2014/15
-start_at: 2014-11-05
+```
+= Mauritius Premier League 2014/15 =
 
-fixtures:
-- league-i
-- league-ii
-
-10 teams:
-- Cercle de Joachim
-- AS Port-Louis 2000
-- Pamplemousses
-- Curepipe Starlight
-- Petite Rivière Noire
-- Rivière du Rempart
-- AS Quatre Bornes
-- Chamarel SC
-- La Cure Sylvester
-- Entente Boulet Rouge
+Cercle de Joachim
+AS Port-Louis 2000
+Pamplemousses
+Curepipe Starlight
+Petite Rivière Noire
+Rivière du Rempart
+AS Quatre Bornes
+Chamarel SC
+La Cure Sylvester
+Entente Boulet Rouge
 ```
 
 
-## Step 5: Add a setups file list (also known as manifest)
-
-Example - [`setups/all.txt`](setups/all.txt):
-
-```
-mu-mauritius!/leagues
-mu-mauritius!/clubs
-mu-mauritius!/2014-15/league
-```
-
-
-## Step 6: Add a datafile build script - That's it. Done.
+## Step 5: Add a datafile build script - That's it. Done.
 
 Example - [`Datafile`](Datafile):
 
 ```ruby
-## a) Add country e.g. Mauritius
+# Read in all football datasets in ./mauritius (defaults to all seasons)
 
-inline do
-  Country.parse 'mu', 'Mauritius', 'MUS', '2_040 km²', '1_261_200'
-end 
-
-## b) Read in all football datasets in ./mu-mauritius (defaults to setups/all.txt)
-
-football 'mu-mauritius'
+football 'mauritius'
 ```
 
 
