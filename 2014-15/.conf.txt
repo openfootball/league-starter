@@ -1,5 +1,6 @@
-####################################
-# Mauritius Premier League 2014/15
+= Mauritius Premier League 2014/15
+
+## fix!!!! use new format style
 
 league:   mu
 season:   2014/15
