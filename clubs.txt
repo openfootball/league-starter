@@ -1,22 +1,14 @@
-####################################
-# Mauritius Premier League Teams
+= Mauritius =
 
-
-joachim,       Cercle de Joachim|Cercle de Joachim SC|Joachim, CDJ
-chamarel,      Chamarel SC|Chamarel|Chamarel Sport Club, CHA
-curepipesc,    Curepipe Starlight|Curepipe Starlight SC, CUR
-entente,       Entente Boulet Rouge|Entente Boulet Rouge SC|Entente Boulet Rouge-Riche Mare Rovers, EBR
-lacure,        La Cure Sylvester|La Cure Sylvester SC|La Cure, LCS
-pamplemousses, Pamplemousses|Pamplemousses SC, PPM
-petiteriv,     Petite Rivière Noire|Petite Rivière Noire SC|Petite Rivière, PRN
-aspl,          AS Port-Louis 2000|ASPL 2000|Port-Louis 2000|Association Sportive Port-Louis 2000, APL
-qbornes,       AS Quatre Bornes|ASQB|Quatre Bornes, AQB
-rempart,       Rivière du Rempart|AS Rivière du Rempart, ARR
-
-
-###
-# More Teams for Mauritian Cup
-
-pointauxsables,  Pointe-aux-Sables Mates
-savanne,         Savanne SC|Savanne Sporting Club
-
+Cercle de Joachim | Cercle de Joachim SC | Joachim
+Chamarel SC | Chamarel | Chamarel Sport Club
+Curepipe Starlight | Curepipe Starlight SC
+Entente Boulet Rouge | Entente Boulet Rouge SC | Entente Boulet Rouge-Riche Mare Rovers
+La Cure Sylvester | La Cure Sylvester SC | La Cure
+Pamplemousses | Pamplemousses SC
+Petite Rivière Noire | Petite Rivière Noire SC | Petite Rivière
+AS Port-Louis 2000 | ASPL 2000 | Port-Louis 2000 |Association Sportive Port-Louis 2000
+AS Quatre Bornes | ASQB | Quatre Bornes
+Rivière du Rempart | AS Rivière du Rempart
+Pointe-aux-Sables Mates
+Savanne SC | Savanne Sporting Club
