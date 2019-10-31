@@ -1,34 +1,25 @@
-= Mauritius Premier League 2014/15
+= Mauritius Premier League 2014/15 =
 
-## fix!!!! use new format style
-
-league:   mu
-season:   2014/15
-start_at: 2014-11-5
-
-fixtures:
-- league-i
-- league-ii
-
-10 teams:
-- Cercle de Joachim
-- AS Port-Louis 2000
-- Pamplemousses
-- Curepipe Starlight
-- Petite Rivière Noire
-- Rivière du Rempart
-- AS Quatre Bornes
-- Chamarel SC
-- La Cure Sylvester
-- Entente Boulet Rouge
+Cercle de Joachim
+AS Port-Louis 2000
+Pamplemousses
+Curepipe Starlight
+Petite Rivière Noire
+Rivière du Rempart
+AS Quatre Bornes
+Chamarel SC
+La Cure Sylvester
+Entente Boulet Rouge
 
 
-###
-# note: for standings table (checksum) add point (pts) corrections
+= Mauritius Cup 2015 =
 
-corrections:
-- Curepipe Starlight:   -1 points
-- Petite Rivière Noire: -1 points
-- Rivière du Rempart:   -2 points
-- AS Quatre Bornes:     -1 points
-
+AS Port-Louis 2000
+Rivière du Rempart
+La Cure Sylvester
+Chamarel SC
+Petite Rivière Noire
+Pamplemousses
+Entente Boulet Rouge
+Pointe-aux-Sables Mates
+Savanne SC
