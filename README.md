@@ -68,7 +68,6 @@ AS Rivière du Rempart | Rivière du Rempart
 
 Note: The datafile again starts with the country heading, that is, `= ... =` and than lists
 all clubs on its own lines. Use the pipe (`|`) to list alternate club names.
-The Mauritius Premier League includes ten clubs.
 
 
 ## Step 3: Add all match fixtures and results
@@ -133,6 +132,8 @@ Chamarel SC
 La Cure Sylvester
 Entente Boulet Rouge
 ```
+
+The Mauritius Premier League includes ten clubs.
 
 
 ## Step 5: Add a datafile build script - That's it. Done.
