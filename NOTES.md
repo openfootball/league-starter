@@ -1,13 +1,28 @@
 # Notes
 
-## Mauritius Premier League
+## Mauritius Premier League 2014/15
 
 - see [mpfl.mu](http:www.mpfl.mu)
 - see RSSSF [mauri2015](http://rsssf.com/tablesm/mauri2015.html)
 - see Wikipedia
     - [Mauritian League](https://en.wikipedia.org/wiki/Mauritian_League)
     - [Championnat de Maurice de football 2014-2015 [fr]](https://fr.wikipedia.org/wiki/Championnat_de_Maurice_de_football_2014-2015)
+- start_at: 2014-11-5 !!!!
+- 10 teams
+- corrections -- note: for standings table (checksum) add point (pts) corrections
+  - Curepipe Starlight:   -1 points
+  - Petite Rivière Noire: -1 points
+  - Rivière du Rempart:   -2 points
+  - AS Quatre Bornes:     -1 points
 
+
+## Mauritius Football Association (MFA) Cup 2015
+
+- season:   2014/15 ????
+- start_at: 2015-06-22
+
+
+## More
 
 Final League Standings 2014/15
 
