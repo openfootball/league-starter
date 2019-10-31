@@ -1,5 +1,4 @@
-##################################################
-# Mauritius Football Association (MFA) Cup 2015
+= Mauritius Cup 2015 =
 
 
 Preliminary Round
