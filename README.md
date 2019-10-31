@@ -68,7 +68,7 @@ AS Quatre Bornes | Quatre Bornes
 AS Rivière du Rempart | Rivière du Rempart
 ```
 
-Note: The datafile again starts with country heading, that is, `= ... =` and than lists
+Note: The datafile again starts with the country heading, that is, `= ... =` and than lists
 all clubs on its own lines. Use the pipe (`|`) to list alternate club names.
 
 
