@@ -1,4 +1,4 @@
 = Mauritius =
 
 1      Mauritius Premier League
-cup    Mauritius Football Association Cup
+cup    Mauritius Cup
