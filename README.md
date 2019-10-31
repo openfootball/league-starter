@@ -39,8 +39,12 @@ Example - [`leagues.txt`](leagues.txt):
 
 ```
 = Mauritius =
+
 1  Mauritius Premier League
 ```
+
+Note: The datafile starts with the country heading, that is, `= ... =`
+and than lists all leagues and cups on its own lines.
 
 
 ## Step 2: Add all clubs
@@ -51,6 +55,7 @@ Example - [`clubs.txt`](clubs.txt):
 
 ```
 = Mauritius =
+
 Cercle de Joachim | Cercle de Joachim SC | Joachim
 Chamarel | Chamarel SC
 Curepipe Starlight | Curepipe SC | Starlight
@@ -63,7 +68,8 @@ AS Quatre Bornes | Quatre Bornes
 AS Rivière du Rempart | Rivière du Rempart
 ```
 
-Note: Use the pipe (`|`) to list alternative names.
+Note: The datafile again starts with country heading, that is, `= ... =` and than lists
+all clubs on its own lines. Use the pipe (`|`) to list alternate club names.
 
 
 ## Step 3: Add all match fixtures and results
