@@ -15,7 +15,7 @@ Let's get started. Follow along these five steps:
 - Step 1: Add all leagues
 - Step 2: Add all clubs
 - Step 3: Add all match fixtures and results
-- Step 4: Add the league season "front matter" settings
+- Step 4: Add the league season "configuration" settings
 - Step 5: Add a datafile build script - That's it. Done.
 
 Using a file structure like:
