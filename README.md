@@ -49,8 +49,6 @@ and than lists all leagues and cups on its own lines.
 
 ## Step 2: Add all clubs
 
-The Mauritius Premier League includes ten clubs.
-
 Example - [`clubs.txt`](clubs.txt):
 
 ```
@@ -70,6 +68,7 @@ AS Rivière du Rempart | Rivière du Rempart
 
 Note: The datafile again starts with the country heading, that is, `= ... =` and than lists
 all clubs on its own lines. Use the pipe (`|`) to list alternate club names.
+The Mauritius Premier League includes ten clubs.
 
 
 ## Step 3: Add all match fixtures and results
