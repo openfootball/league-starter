@@ -22,13 +22,13 @@ Using a file structure like:
 
 ```
 mauritius
-├── 2014-15              # 2014-15 season folder
-|   ├── league-i.txt     #   match fixtures / results - matchdays  1-18
-|   ├── league-ii.txt    #                            - matchdays 19-36
-|   └── .conf.txt        #  league "configuration" settings
-├── leagues.txt          # all leagues
-├── clubs.txt            # all clubs
-└── Datafile             # build script
+├── 2014-15                # 2014-15 season folder
+|   ├── .conf.txt          #   league "configuration" settings
+|   ├── 1-league-i.txt     #   match fixtures / results - matchdays  1-18 
+|   └── 1-league-ii.txt    #                            - matchdays 19-36      
+├── leagues.txt            # all leagues
+├── clubs.txt              # all clubs
+└── Datafile               # build script
 ```
 
 
@@ -74,7 +74,7 @@ all clubs on its own lines. Use the pipe (`|`) to list alternate club names.
 
 ## Step 3: Add all match fixtures and results
 
-Example - [`2014-15/league-i.txt`](2014-15/league-i.txt):
+Example - [`2014-15/1-league-i.txt`](2014-15/1-league-i.txt):
 
 ```
 = Mauritius Premier League 2014/15 =
