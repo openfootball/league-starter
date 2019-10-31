@@ -1,5 +1,4 @@
-############################################
-# Mauritius Premier League 2014/15 (Cont.)
+= Mauritius Premier League 2014/15 = 
 
 
 Matchday 19
