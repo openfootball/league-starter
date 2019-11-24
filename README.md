@@ -1,7 +1,7 @@
 # football.db League Quick Starter Sample - Mauritius Premier League
 
 
-Create your own plain text datasets for your own league(s) from scratch
+Create your own datasets in plain text for your own league(s) from scratch
 and read it all
 into your SQL database of choice (e.g. SQLite, PostgreSQL, etc.)
 with a single command e.g.:
@@ -16,7 +16,7 @@ Let's get started. Follow along these five steps:
 - Step 2: Add all clubs
 - Step 3: Add all match fixtures and results
 - Step 4: Add the league season "configuration" settings
-- Step 5: Add a datafile build script - That's it. Done.
+- Step 5: Let's build. That's it. Done.
 
 Using a file structure like:
 
@@ -27,8 +27,7 @@ mauritius
 |   ├── 1-league-i.txt     #   match fixtures / results - matchdays  1-18 
 |   └── 1-league-ii.txt    #                            - matchdays 19-36      
 ├── leagues.txt            # all leagues
-├── clubs.txt              # all clubs
-└── Datafile               # build script
+└── clubs.txt              # all clubs
 ```
 
 
@@ -136,16 +135,7 @@ Entente Boulet Rouge
 The Mauritius Premier League includes ten clubs.
 
 
-## Step 5: Add a datafile build script - That's it. Done.
-
-Example - [`Datafile`](Datafile):
-
-```ruby
-# Read in all football datasets in ./mauritius (defaults to all seasons)
-
-football 'mauritius'
-```
-
+## Step 5: Let's build. That's it. Done.
 
 Now try in your working folder:
 
@@ -153,10 +143,10 @@ Now try in your working folder:
 $ sportdb build
 ```
 
-This will read in the `./Datafile` and
+This will run the build script and
 
-- setup a new single-file SQLite database e.g. `./sport.db`
-- read in all plain text datasets
+- setup a new single-file SQLite database e.g. `./sport.db` from scratch (zero)
+- read in all datasets in plain text
 
 That's it. Try:
 
