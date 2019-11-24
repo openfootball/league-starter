@@ -1,7 +1,0 @@
-################################################
-# Datafile for Mauritius Premier League
-#
-#  use (inside the mauritius/ folder)
-#    $ sportdb build
-
-football 'mauritius'
