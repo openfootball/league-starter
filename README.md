@@ -10,7 +10,7 @@ with a single command e.g.:
 $ sportdb build
 ```
 
-Let's get started. Follow along these five steps:
+Let's get started. Follow along these three steps:
 
 - Step 1: Add all leagues
 - Step 2: Add all clubs
