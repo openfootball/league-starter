@@ -7,12 +7,12 @@ Matchday 1
   AS Quatre Bornes      1-0  La Cure Sylvester
   Pamplemousses         0-1  Rivière du Rempart
   AS Port-Louis 2000    5-1  Entente Boulet Rouge
-  Chamarel FC           2-3  Cercle de Joachim
+  Chamarel SC           2-3  Cercle de Joachim
 
 Matchday 2
 [Sun Nov/9]
   Curepipe Starlight    2-1  AS Quatre Bornes
-  Entente Boulet Rouge  1-2  Chamarel FC
+  Entente Boulet Rouge  1-2  Chamarel SC
   Rivière du Rempart    1-1  AS Port-Louis 2000
   La Cure Sylvester     1-2  Pamplemousses
   Petite Rivière Noire  2-0  Cercle de Joachim
