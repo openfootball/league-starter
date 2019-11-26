@@ -15,15 +15,13 @@ Let's get started. Follow along these five steps:
 - Step 1: Add all leagues
 - Step 2: Add all clubs
 - Step 3: Add all match fixtures and results
-- Step 4: Add the league season "configuration" settings
-- Step 5: Let's build. That's it. Done.
+- Let's build. That's it. Done.
 
 Using a file structure like:
 
 ```
 mauritius
 ├── 2014-15                # 2014-15 season folder
-|   ├── .conf.txt          #   league "configuration" settings
 |   ├── 1-league-i.txt     #   match fixtures / results - matchdays  1-18 
 |   └── 1-league-ii.txt    #                            - matchdays 19-36      
 ├── leagues.txt            # all leagues
@@ -82,19 +80,19 @@ Matchday 1
   AS Quatre Bornes      1-0  La Cure Sylvester
   Pamplemousses         0-1  Rivière du Rempart
   AS Port-Louis 2000    5-1  Entente Boulet Rouge
-  Chamarel FC           2-3  Cercle de Joachim
+  Chamarel SC           2-3  Cercle de Joachim
 
 Matchday 2
 [Sun Nov/9]
   Curepipe Starlight    2-1  AS Quatre Bornes
-  Entente Boulet Rouge  1-2  Chamarel FC
+  Entente Boulet Rouge  1-2  Chamarel SC
   Rivière du Rempart    1-1  AS Port-Louis 2000
   La Cure Sylvester     1-2  Pamplemousses
   Petite Rivière Noire  2-0  Cercle de Joachim
 
 Matchday 3
 [Wed Nov/12]
-  Chamarel FC           1-1  Rivière du Rempart
+  Chamarel SC           1-1  Rivière du Rempart
   AS Port-Louis 2000    1-0  La Cure Sylvester
   Cercle de Joachim     2-2  Entente Boulet Rouge
   Pamplemousses         0-4  Curepipe Starlight
@@ -105,7 +103,7 @@ Matchday 4
 [Sun Nov/16]
   Petite Rivière Noire  4-1  Entente Boulet Rouge
   Rivière du Rempart    1-1  Cercle de Joachim
-  La Cure Sylvester     0-0  Chamarel FC
+  La Cure Sylvester     0-0  Chamarel SC
   Curepipe Starlight    0-0  AS Port-Louis 2000
   AS Quatre Bornes      1-0  Pamplemousses
 
@@ -113,29 +111,7 @@ Matchday 4
 ```
 
 
-## Step 4: Add the league season "configuration" settings
-
-Example - [`2014-15/.conf.txt`](2014-15/.conf.txt):
-
-```
-= Mauritius Premier League 2014/15 =
-
-Cercle de Joachim
-AS Port-Louis 2000
-Pamplemousses
-Curepipe Starlight
-Petite Rivière Noire
-Rivière du Rempart
-AS Quatre Bornes
-Chamarel SC
-La Cure Sylvester
-Entente Boulet Rouge
-```
-
-The Mauritius Premier League includes ten clubs.
-
-
-## Step 5: Let's build. That's it. Done.
+## Let's build. That's it. Done.
 
 Now try in your working folder:
 
