@@ -1,4 +1,8 @@
-# football.db League Quick Starter Sample - Mauritius Premier League
+# football.db League Quick Starter Sample V0 - Mauritius Premier League
+
+
+
+**Note - this is the write-up for the older v0 version.**
 
 
 Create your own datasets in plain text for your own league(s) from scratch
@@ -10,22 +14,64 @@ with a single command e.g.:
 $ sportdb build
 ```
 
-Let's get started. Follow along these steps:
+Let's get started. Follow along these three steps:
 
-- Step 1: Add all match fixtures and results
+- Step 1: Add all leagues
+- Step 2: Add all clubs
+- Step 3: Add all match fixtures and results
 - Let's build. That's it. Done.
 
 Using a file structure like:
 
 ```
 mauritius
-└── 2014-15                # 2014-15 season folder
-    ├── 1-league-i.txt     #   match fixtures / results - matchdays  1-18
-    └── 1-league-ii.txt    #                            - matchdays 19-36
+├── 2014-15                # 2014-15 season folder
+|   ├── 1-league-i.txt     #   match fixtures / results - matchdays  1-18
+|   └── 1-league-ii.txt    #                            - matchdays 19-36
+├── leagues.txt            # all leagues
+└── clubs.txt              # all clubs
 ```
 
 
-## Step 1: Add all match fixtures and results
+
+## Step 1: Add all leagues
+
+Example - [`leagues.txt`](leagues.txt):
+
+```
+= Mauritius =
+
+1  Mauritius Premier League
+```
+
+Note: The datafile starts with the country heading, that is, `= ... =`
+and than lists all leagues and cups on its own lines.
+
+
+## Step 2: Add all clubs
+
+Example - [`clubs.txt`](clubs.txt):
+
+```
+= Mauritius =
+
+Cercle de Joachim | Cercle de Joachim SC | Joachim
+Chamarel | Chamarel SC
+Curepipe Starlight | Curepipe SC | Starlight
+Entente Boulet Rouge | Entente Boulet Rouge-Riche Mare Rovers
+La Cure Sylvester | La Cure
+Pamplemousses | Pamplemousses SC
+Petite Rivière Noire | Petite Rivière
+AS Port-Louis 2000 | ASPL 2000
+AS Quatre Bornes | Quatre Bornes
+AS Rivière du Rempart | Rivière du Rempart
+```
+
+Note: The datafile again starts with the country heading, that is, `= ... =` and than lists
+all clubs on its own lines. Use the pipe (`|`) to list alternate club names.
+
+
+## Step 3: Add all match fixtures and results
 
 Example - [`2014-15/1-league-i.txt`](2014-15/1-league-i.txt):
 
@@ -130,20 +176,4 @@ sqlite> select * from teams;
 
 And so on.
 
-
-
-
-
-Note - The latest sportdb update / machinery comes pre-configured with many built-in football leagues (& cups)
-from around the world, see [`/leagues`](https://github.com/openfootball/leagues).
-
-If you want to add more football league(s), you are more than welcome
-to open a ticket/issue.
-
-
-
-## Questions? Comments?
-
-Yes, you can. More than welcome.
-See [Help & Support »](https://github.com/openfootball/help)
 
