@@ -211,8 +211,8 @@ OK   no parse errors found
 You can use the [`fbtxt2json` command-line tool](https://github.com/sportdb/sport.db/tree/master/fbtxt2json) to convert any file in the Football.TXT format to JSON.
 
 Let's try to convert the Mauritus Premier League 2014/15
-in the Football.TXT format (see [`2014-25/1-league-i.txt`](2014-25/1-league-i.txt) and
-[`2014-25/1-league-ii.txt`](2014-25/1-league-ii.txt)
+in the Football.TXT format (see [`2014-15/1-league-i.txt`](2014-15/1-league-i.txt) and
+[`2014-15/1-league-ii.txt`](2014-15/1-league-ii.txt)
 ) to JSON:
 
 ```
