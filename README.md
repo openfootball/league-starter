@@ -219,7 +219,7 @@ in the Football.TXT format (see [`2014-15/1-league-i.txt`](2014-15/1-league-i.tx
 $ fbtxt2json 2014-15/1-league-i.txt 2014-15/1-league-ii.txt -o mu.1.json
 ```
 
-Rsulting in:
+Resulting in:
 
 ```json
 {
