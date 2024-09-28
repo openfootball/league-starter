@@ -154,6 +154,98 @@ to open a ticket/issue.
 
 
 
+## Tips & Tricks
+
+### Debugging & Troubleshooting
+
+You can use the `fbtok` command-line tool shipping with the sportdb machinery to check-up on the Football.TXT tokenizer / tokens.
+
+Let's try the Mauritus Republic Cup 2024
+(see [2024/republic-cup.txt](2024/republic-cup.txt)):
+
+```
+$ fbtok 2024/republic-cup.txt
+```
+
+Resulting in:
+
+```
+line >Round 1<
+[[:round, "Round 1"]]
+
+line >[Apr 28]<
+[[:date, "Apr 28", {:m=>4, :d=>28}]]
+
+line >Cercle de Joachim            3-2  EBRRMR<
+[[:team, "Cercle de Joachim"], [:score, "3-2", {:ft=>[3, 2]}], [:team, "EBRRMR"]]
+
+line >Chebel Citizens              2-0  ASPL 2000<
+[[:team, "Chebel Citizens"], [:score, "2-0", {:ft=>[2, 0]}], [:team, "ASPL 2000"]]
+
+line >Quarterfinals<
+[[:round, "Quarterfinals"]]
+
+line >[May 8]<
+[[:date, "May 8", {:m=>5, :d=>8}]]
+
+line >Savanne                      2-1  Chebel Citizens<
+[[:team, "Savanne"], [:score, "2-1", {:ft=>[2, 1]}], [:team, "Chebel Citizens"]]
+
+...
+
+line >Final<
+[[:round, "Final"]]
+
+line >[Jul 27]<
+[[:date, "Jul 27", {:m=>7, :d=>27}]]
+
+line >Cercle de Joachim            1-0   AS Rivière du Rempart<
+[[:team, "Cercle de Joachim"], [:score, "1-0", {:ft=>[1, 0]}], [:team, "AS Rivière du Rempart"]]
+
+OK   no parse errors found
+```
+
+
+### More Formats
+
+You can use the [`fbtxt2json` command-line tool](https://github.com/sportdb/sport.db/tree/master/fbtxt2json) to convert any file in the Football.TXT format to JSON.
+
+Let's try to convert the Mauritus Premier League 2014/15
+in the Football.TXT format (see [`2014-25/1-league-i.txt`](2014-25/1-league-i.txt) and
+[`2014-25/1-league-ii.txt`](2014-25/1-league-ii.txt)
+) to JSON:
+
+```
+$ fbtxt2json 2014-15/1-league-i.txt 2014-15/1-league-ii.txt -o mu.1.json
+```
+
+Rsulting in:
+
+```json
+{
+  "name": "Mauritius Premier League 2014/15",
+  "matches": [
+    {
+      "round": "Matchday 1",
+      "date": "2014-11-05",
+      "team1": "Curepipe Starlight",
+      "team2": "Petite Rivière Noire",
+      "score": { "ft": [1,3] }
+    },
+    {
+      "round": "Matchday 1",
+      "date": "2014-11-05",
+      "team1": "AS Quatre Bornes",
+      "team2": "La Cure Sylvester",
+      "score": { "ft": [1,0] }
+    },
+    // ...
+  ]
+}
+```
+
+
+
 ## Questions? Comments?
 
 Yes, you can. More than welcome.

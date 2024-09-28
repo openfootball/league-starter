@@ -18,8 +18,14 @@
 
 ## Mauritius Football Association (MFA) Cup 2015
 
-- season:   2014/15 ????
-- start_at: 2015-06-22
+
+## National Super League 2023-2024
+- see wikipedia
+  - <https://fr.wikipedia.org/wiki/Championnat_de_Maurice_de_football_2023-2024>
+- Édition	79e
+- Date	du 1er février 2024 au 1er juin 2024
+- Participants	10
+
 
 
 ## More
@@ -51,8 +57,8 @@ Rnk    Team                 Pld   W   D   L  GF   GA  +/-  Pts
   4    Curepipe Starlight*            36   17     7    57
   5    Petite Rivière Noire*          36   18     7    56
   6    Rivière du Rempart**           36   11    -2    43
-  7    AS Quatre Bornes*              36   10   -12    38  
-  8    Chamarel SC                    36    9   -25    35 
+  7    AS Quatre Bornes*              36   10   -12    38
+  8    Chamarel SC                    36    9   -25    35
   9    La Cure Sylvester              36    8   -13    34
  10    Entente B.R/Riche-Mare Rovers  36    5   -51    24
 ```
@@ -106,9 +112,6 @@ allow and change to
 Rivière du Rempart           1-1  La Cure Sylvester   [3-1 pen]
 ```
 
-### Preliminary Round
-
-make Preliminary Round default to Knock out (K.O.) matches
 
 ### Misc
 
@@ -125,3 +128,25 @@ ASPL 2000                    awd Chamarel                     [awarded 3-0, orig
 ASPL 2000                    awd Rivière du Rempart           [awarded 3-0; originally 2-0]
 Pamplemousses                awd La Cure Sylvester            [awarded 3-0; originally 1-3, La Cure Sylvester fielded ineligible players]
 ```
+
+
+double check matches with status - change syntax/format - why? why not?
+
+```
+  Cercle de Joachim      -   AS Port-Louis 2000    [abandoned in 24' due to bad weather]
+  Cercle de Joachim     2-0  AS Port-Louis 2000    [replay]
+  Pamplemousses         3-0  La Cure Sylvester      [awarded; originally 1-3, La Cure Sylvester fielded ineligible players]
+  AS Port-Louis 2000    3-0  Rivière du Rempart     [awarded; originally 2-0]
+  Chamarel SC           0-3  AS Port-Louis 2000     [awarded; originally 2-2]
+  Cercle de Joachim      -  Rivière du Rempart    [abandoned at 0-0 in 5' due to bad weather]
+  Cercle de Joachim     2-1  Rivière du Rempart   [replay]
+  ASPL 2000                    3-0  GRSE Wanderers    [awarded]
+  Pamplemousses                 -   Savanne              [abandoned in 10' due to unplayable pitch]
+  Pamplemousses                5-3  Savanne  [replay]
+  Cercle de Joachim         7-6 pen (0-0)  AS Vacoas-Phoenix   [annulled because no extra time was played]
+  Cercle de Joachim            3-2 aet  AS Vacoas-Phoenix     [replay]
+
+
+
+```
+
