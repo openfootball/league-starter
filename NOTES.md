@@ -20,6 +20,7 @@
 
 
 ## National Super League 2023-2024
+- see RSSSF [mauri2024](http://rsssf.com/tablesm/mauri2024.html)
 - see wikipedia
   - <https://fr.wikipedia.org/wiki/Championnat_de_Maurice_de_football_2023-2024>
 - Édition	79e
@@ -145,8 +146,5 @@ double check matches with status - change syntax/format - why? why not?
   Pamplemousses                5-3  Savanne  [replay]
   Cercle de Joachim         7-6 pen (0-0)  AS Vacoas-Phoenix   [annulled because no extra time was played]
   Cercle de Joachim            3-2 aet  AS Vacoas-Phoenix     [replay]
-
-
-
 ```
 

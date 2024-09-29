@@ -1,0 +1,194 @@
+= Mauritius Premier League 2023/24 =
+
+
+Date:   Feb 10 - Jul 20 2023
+
+## text macros (search/replace)
+##   for separator use  -> or => or | or || or ??
+
+Teams:  10
+  Cercle de Joachim
+  Pamplemousses          -> Pamplemousses SC
+  ASPL 2000              -> AS Port-Louis 2000
+  GRSE Wanderers         -> Grande Rivière Sud Est Wanderers SC
+  Chebel Citizens        -> Chebel Citizens SC
+  Petite Rivière Noire   -> Petite Rivière Noire FC
+  AS Vacoas-Phoenix      -> AS de Vacoas-Phoenix
+  EBRRMR                 -> Entente Boulet Rouge-Riche Mare Rovers
+  AS Rivière du Rempart
+  Savanne                -> Savanne SC
+
+
+
+
+Matchday 1
+[Feb 10]
+  GRSE Wanderers               4-3  EBRRMR
+[Feb 11]
+  Cercle de Joachim            6-1  Savanne
+  ASPL 2000                    2-1  AS Rivière du Rempart
+  Chebel Citizens              0-3  Pamplemousses
+  Petite Rivière Noire         1-1  AS Vacoas-Phoenix
+
+Matchday 2
+[Feb 17]
+  Pamplemousses                2-0  ASPL 2000
+[Feb 18]
+  EBRRMR                       1-3  Cercle de Joachim
+  AS Vacoas-Phoenix            2-0  Savanne
+  AS Rivière du Rempart        0-1  Petite Rivière Noire
+  Chebel Citizens              0-1  GRSE Wanderers
+
+Matchday 3
+[Feb 25]
+  Savanne                      3-1  AS Rivière du Rempart
+  Petite Rivière Noire         4-0  EBRRMR
+  GRSE Wanderers               2-0  AS Vacoas-Phoenix
+  Chebel Citizens              0-1  ASPL 2000
+  Pamplemousses                1-1  Cercle de Joachim
+
+Matchday 4
+[Mar 2]
+  Pamplemousses                0-1  Petite Rivière Noire
+  Savanne                      4-4  EBRRMR
+[Mar 3]
+  GRSE Wanderers               1-0  ASPL 2000
+  AS Vacoas-Phoenix            3-1  AS Rivière du Rempart
+  Cercle de Joachim            3-1  Chebel Citizens
+
+Matchday 5
+[Mar 22]
+  AS Rivière du Rempart        0-0  GRSE Wanderers
+[Mar 24]
+  Savanne                      1-5  ASPL 2000
+  EBRRMR                       2-4  Chebel Citizens
+[Apr 3]
+  AS Vacoas-Phoenix            1-1  Pamplemousses
+  Cercle de Joachim            2-0  Petite Rivière Noire
+
+Matchday 6
+[Apr 6]
+  Petite Rivière Noire         3-3  GRSE Wanderers
+  EBRRMR                       3-1  AS Vacoas-Phoenix
+  AS Rivière du Rempart        0-1  Pamplemousses
+  Chebel Citizens              1-0  Savanne
+  ASPL 2000                    1-1  Cercle de Joachim
+
+Matchday 7
+[Apr 13]
+  ASPL 2000                    3-1  Petite Rivière Noire
+  AS Vacoas-Phoenix            0-2  Cercle de Joachim
+  EBRRMR                       1-0  Pamplemousses
+[Apr 14]
+  AS Rivière du Rempart        1-1  Chebel Citizens
+  Savanne                      1-1  GRSE Wanderers
+
+Matchday 8
+[May 4]
+  ASPL 2000                    3-1  EBRRMR
+[May 5]
+  Petite Rivière Noire         1-1  Savanne
+  Cercle de Joachim            5-0  AS Rivière du Rempart
+[May 8]
+  Pamplemousses                1-0  GRSE Wanderers
+[May 29]
+  Chebel Citizens              0-1  AS Vacoas-Phoenix
+
+Matchday 9
+[May 10]
+  AS Rivière du Rempart        1-2  EBRRMR
+[May 11]
+  AS Vacoas-Phoenix            2-0  ASPL 2000
+[May 12]
+  GRSE Wanderers               0-2  Cercle de Joachim
+  Pamplemousses                 -   Savanne              [abandoned in 10' due to unplayable pitch]
+  Petite Rivière Noire         1-2  Chebel Citizens
+[Jun 15]
+  Pamplemousses                5-3  Savanne  [replay]
+
+Matchday 10
+[May 17]
+  AS Vacoas-Phoenix            0-1  Petite Rivière Noire
+[May 18]
+  Savanne                      2-5  Cercle de Joachim
+  AS Rivière du Rempart        1-2  ASPL 2000
+  EBRRMR                       0-1  GRSE Wanderers
+  Pamplemousses                2-0  Chebel Citizens
+
+Matchday 11
+[May 21]
+  Petite Rivière Noire         2-0  AS Rivière du Rempart
+[May 22]
+  AS Vacoas-Phoenix            4-1  Savanne
+[Jun 14]
+  Cercle de Joachim            9-0  EBRRMR
+[Jun 16]
+  GRSE Wanderers               0-1  Chebel Citizens
+[Jun 19]
+  ASPL 2000                    1-1  Pamplemousses
+
+Matchday 12
+[May 25]
+  AS Vacoas-Phoenix            3-4  GRSE Wanderers
+[May 26]
+  EBRRMR                       2-0  Petite Rivière Noire
+  Cercle de Joachim            1-0  Pamplemousses
+  AS Rivière du Rempart        6-2  Savanne
+  ASPL 2000                    0-1  Chebel Citizens
+
+Matchday 13
+[Jun 1]
+  AS Rivière du Rempart        4-2  AS Vacoas-Phoenix
+[Jun 2]
+  EBRRMR                       2-0  Savanne
+[Jun 23]
+  Petite Rivière Noire         1-3  Pamplemousses
+  ASPL 2000                    2-0  GRSE Wanderers
+  Chebel Citizens              0-1  Cercle de Joachim
+
+Matchday 14
+[Jun 29]
+  Pamplemousses                0-0  AS Vacoas-Phoenix
+[Jun 30]
+  GRSE Wanderers               0-3  AS Rivière du Rempart
+  Chebel Citizens              3-0  EBRRMR
+  Petite Rivière Noire         1-4  Cercle de Joachim
+[Jul 1]
+  ASPL 2000                    1-2  Savanne
+
+Matchday 15
+[Jul 5]
+  Savanne                      1-1  Chebel Citizens
+[Jul 6]
+  GRSE Wanderers               1-0  Petite Rivière Noire
+  Cercle de Joachim            1-2  ASPL 2000
+  Pamplemousses                2-0  AS Rivière du Rempart
+  AS Vacoas-Phoenix            0-1  EBRRMR
+
+Matchday 16
+[Jul 9]
+  Petite Rivière Noire         4-1  ASPL 2000
+  Cercle de Joachim            5-0  AS Vacoas-Phoenix
+[Jul 10]
+  Pamplemousses                5-0  EBRRMR
+  Chebel Citizens              0-1  AS Rivière du Rempart
+[Jul 11]
+  GRSE Wanderers               5-2  Savanne
+
+Matchday 17
+[Jul 14]
+  AS Vacoas-Phoenix            0-1  Chebel Citizens
+  AS Rivière du Rempart        1-1  Cercle de Joachim
+  EBRRMR                       2-2  ASPL 2000
+  Savanne                      1-5  Petite Rivière Noire
+  GRSE Wanderers               0-1  Pamplemousses
+
+Matchday 18
+[Jul 18]
+  Chebel Citizens              2-0  Petite Rivière Noire
+  Savanne                      3-2  Pamplemousses
+[Jul 19]
+  EBRRMR                       1-2  AS Rivière du Rempart
+  ASPL 2000                    1-2  AS Vacoas-Phoenix
+[Jul 20]
+  Cercle de Joachim            3-0  GRSE Wanderers
