@@ -1,27 +1,32 @@
 # football.db League Quick Starter Sample - Mauritius Premier League
 
-
-Create your own datasets in plain text for your own league(s) from scratch
+Yes, you can - create your own plain text datasets in the Football.TXT format
+for your own league(s) from scratch
 and read it all
-into your SQL database of choice (e.g. SQLite, PostgreSQL, etc.)
-with a single command e.g.:
+into your SQL database with a single command e.g.:
+
 
 ```
-$ sportdb build
+$ fbtxt2sqlite  mauritius.db  .
 ```
+
+or convert to .JSON  (with fbtxt2json) or .CSV (with fbtxt2csv).
+
+
+
 
 Let's get started. Follow along these steps:
 
-- Step 1: Add all match fixtures and results
+- Step 1: Add all match fixtures and results in the Football.TXT format
 - Let's build. That's it. Done.
 
 Using a file structure like:
 
 ```
-mauritius
-└── 2014-15                # 2014-15 season folder
-    ├── 1-league-i.txt     #   match fixtures / results - matchdays  1-18
-    └── 1-league-ii.txt    #                            - matchdays 19-36
+mauritius/
+└── 2014-15/                # 2014-15 season folder
+    ├── 1-league-i.txt      #   match fixtures / results - matchdays  1-18
+    └── 1-league-ii.txt     #                            - matchdays 19-36
 ```
 
 
@@ -71,46 +76,56 @@ Matchday 4
 
 ## Let's build. That's it. Done.
 
+
+
+---
+
+### Tip - Step 0 - fbtxt2sqlite Installation via Gems (Package Manager)
+
+To install the fbtxt2sqlite command-line tool use the gems command-line tool, that is, ruby's package manager. Type:
+
+     $ gem install fbtxt2sqlite
+
+
+To check-up on the installation try:
+
+     $ fbtxt2sqlite -h        # or
+     $ fbtxt2sqlite --help
+
+resulting in:
+
+```
+Usage: fbtxt2sqlite [options] DBPATH PATH
+        --verbose, --debug           turn on verbose / debug output (default: false)
+        --seasons SEASONS            turn on processing only seasons (default: false)
+```
+
+---
+
+
+
+
 Now try in your working folder:
 
 ```
-$ sportdb build
+$ fbtxt2sqlite mauritius.db .
 ```
 
-This will run the build script and
+This will run the build machinery and
 
-- setup a new single-file SQLite database e.g. `./sport.db` from scratch (zero)
-- read in all datasets in plain text
+- setup a new single-file SQLite database e.g. `./mauritius.db` from scratch (zero)
+- read in all plain text datasets in the Football.TXT format in the working directory e.g. `./`
+
 
 That's it. Try:
 
 ```
-$ sqlite3 sport.db
+$ sqlite3 mauritius.db
 
 SQLite version 3.7.16
 Enter ".help" for instructions
 Enter SQL statements terminated with a ";"
 
-sqlite> .tables
-
-alltime_standing_entries  events_grounds            names
-alltime_standings         events_teams              parts
-assocs                    games                     persons
-assocs_assocs             goals                     places
-badges                    grounds                   props
-cities                    group_standing_entries    rosters
-continents                group_standings           rounds
-counties                  groups                    seasons
-countries                 groups_teams              states
-country_codes             langs                     taggings
-districts                 leagues                   tags
-event_standing_entries    logs                      teams
-event_standings           metros                    usages
-events                    munis                     zones
-
-sqlite> select * from countries;
-
-1|mu|Mauritius|MRI|...
 
 sqlite> select * from leagues;
 
@@ -146,15 +161,89 @@ And so on.
 
 
 
-Note - The latest sportdb update / machinery comes pre-configured with many built-in football leagues (& cups)
-from around the world, see [`/leagues`](https://github.com/openfootball/leagues).
-
-If you want to add more football league(s), you are more than welcome
-to open a ticket/issue.
-
-
-
 ## Tips & Tricks
+
+### More Formats
+
+You can use the [`fbtxt2json` command-line tool](https://github.com/sportdb/footty/tree/master/fbtxt2json) to convert any file in the Football.TXT format to JSON.
+
+Let's try to convert the Mauritus Premier League 2014/15
+in the Football.TXT format (see [`2014-15/1-league-i.txt`](2014-15/1-league-i.txt) and
+[`2014-15/1-league-ii.txt`](2014-15/1-league-ii.txt)
+) to JSON:
+
+```
+$ fbtxt2json 2014-15/1-league-i.txt 2014-15/1-league-ii.txt -o mu.1.json
+```
+
+Resulting in:
+
+```json
+{
+  "name": "Mauritius Premier League 2014/15",
+  "matches": [
+    {
+      "round": "Matchday 1",
+      "date": "2014-11-05",
+      "team1": "Curepipe Starlight",
+      "team2": "Petite Rivière Noire",
+      "score": { "ft": [1,3] }
+    },
+    {
+      "round": "Matchday 1",
+      "date": "2014-11-05",
+      "team1": "AS Quatre Bornes",
+      "team2": "La Cure Sylvester",
+      "score": { "ft": [1,0] }
+    },
+    // ...
+  ]
+}
+```
+
+or convert all datasets all-at-once by passing in the directory:
+
+```
+$ fbtxt2json .
+```
+
+resulting in:
+
+```
+mauritius/
+└── 2014-15/            
+    ├── 1-league-i.json
+    └── 1-league-ii.json
+
+```
+
+For an all-in-one .CSV datafile 
+use the `fbtxt2csv` command-line tool. 
+Try:
+
+```
+$ fbtxt2csv ./ -o mauritius.csv
+```
+
+resulting in:
+
+``` csv
+League,Date,Team 1,Team 2,FT,ET,P,Round,Status
+Mauritius Premier League 2014/15,2014-11-05,Curepipe Starlight,Petite Rivière Noire,1-3,,,Matchday 1,
+Mauritius Premier League 2014/15,2014-11-05,AS Quatre Bornes,La Cure Sylvester,1-0,,,Matchday 1,
+Mauritius Premier League 2014/15,2014-11-05,Pamplemousses,Rivière du Rempart,0-1,,,Matchday 1,
+Mauritius Premier League 2014/15,2014-11-05,AS Port-Louis 2000,Entente Boulet Rouge,5-1,,,Matchday 1,
+Mauritius Premier League 2014/15,2014-11-05,Chamarel SC,Cercle de Joachim,2-3,,,Matchday 1,
+Mauritius Premier League 2014/15,2014-11-09,Curepipe Starlight,AS Quatre Bornes,2-1,,,Matchday 2,
+Mauritius Premier League 2014/15,2014-11-09,Entente Boulet Rouge,Chamarel SC,1-2,,,Matchday 2,
+Mauritius Premier League 2014/15,2014-11-09,Rivière du Rempart,AS Port-Louis 2000,1-1,,,Matchday 2,
+Mauritius Premier League 2014/15,2014-11-09,La Cure Sylvester,Pamplemousses,1-2,,,Matchday 2,
+# ...
+```
+
+
+
+
 
 ### Debugging & Troubleshooting
 
@@ -206,48 +295,10 @@ OK   no parse errors found
 ```
 
 
-### More Formats
-
-You can use the [`fbtxt2json` command-line tool](https://github.com/sportdb/sport.db/tree/master/fbtxt2json) to convert any file in the Football.TXT format to JSON.
-
-Let's try to convert the Mauritus Premier League 2014/15
-in the Football.TXT format (see [`2014-15/1-league-i.txt`](2014-15/1-league-i.txt) and
-[`2014-15/1-league-ii.txt`](2014-15/1-league-ii.txt)
-) to JSON:
-
-```
-$ fbtxt2json 2014-15/1-league-i.txt 2014-15/1-league-ii.txt -o mu.1.json
-```
-
-Resulting in:
-
-```json
-{
-  "name": "Mauritius Premier League 2014/15",
-  "matches": [
-    {
-      "round": "Matchday 1",
-      "date": "2014-11-05",
-      "team1": "Curepipe Starlight",
-      "team2": "Petite Rivière Noire",
-      "score": { "ft": [1,3] }
-    },
-    {
-      "round": "Matchday 1",
-      "date": "2014-11-05",
-      "team1": "AS Quatre Bornes",
-      "team2": "La Cure Sylvester",
-      "score": { "ft": [1,0] }
-    },
-    // ...
-  ]
-}
-```
-
-
 
 ## Questions? Comments?
 
 Yes, you can. More than welcome.
 See [Help & Support »](https://github.com/openfootball/help)
+
 

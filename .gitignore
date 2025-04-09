@@ -1,0 +1,7 @@
+###
+# ignore generated artefacts
+
+*.json
+*.db
+*.csv
+
